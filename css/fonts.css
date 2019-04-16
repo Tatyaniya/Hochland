@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Arial Cyr';
+    src: url('../fonts/ArialCyrMT.eot');
+    src: url('../fonts/ArialCyrMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ArialCyrMT.woff2') format('woff2'),
+        url('../fonts/ArialCyrMT.woff') format('woff'),
+        url('../fonts/ArialCyrMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Cyr';
+    src: url('../fonts/ArialCyrMT-Bold.eot');
+    src: url('../fonts/ArialCyrMT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ArialCyrMT-Bold.woff2') format('woff2'),
+        url('../fonts/ArialCyrMT-Bold.woff') format('woff'),
+        url('../fonts/ArialCyrMT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicDemiITC';
+    src: url('../fonts/AvantGardeGothicDemiITC.eot');
+    src: url('../fonts/AvantGardeGothicDemiITC.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvantGardeGothicDemiITC.woff2') format('woff2'),
+        url('../fonts/AvantGardeGothicDemiITC.woff') format('woff'),
+        url('../fonts/AvantGardeGothicDemiITC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicDemiITC';
+    src: url('../fonts/AvantGardeGothicDemiITC-Oblique.eot');
+    src: url('../fonts/AvantGardeGothicDemiITC-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvantGardeGothicDemiITC-Oblique.woff2') format('woff2'),
+        url('../fonts/AvantGardeGothicDemiITC-Oblique.woff') format('woff'),
+        url('../fonts/AvantGardeGothicDemiITC-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'InformC';
+    src: url('../fonts/InformC-Bold.eot');
+    src: url('../fonts/InformC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InformC-Bold.woff2') format('woff2'),
+        url('../fonts/InformC-Bold.woff') format('woff'),
+        url('../fonts/InformC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InformC';
+    src: url('../fonts/InformC.eot');
+    src: url('../fonts/InformC.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InformC.woff2') format('woff2'),
+        url('../fonts/InformC.woff') format('woff'),
+        url('../fonts/InformC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
