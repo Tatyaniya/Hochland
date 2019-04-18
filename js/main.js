@@ -24,4 +24,25 @@ $(function () {
         $('#'+id).addClass('tabs__cont--active');
     }
 
+    // man / woman
+
+    $('.tabs__item--man').click(function(){
+        $('.reg-login__box').addClass('reg-login__box--man');
+    });
+
+    $('.tabs__item--woman').click(function(){
+        $('.reg-login__box').removeClass('reg-login__box--man');
+    });
+
+    // humburger
+
+    $('.humburger').click(function(){
+        //$('.top-menu__list').toggleClass('top-menu__list--open');
+        $( ".top-menu__list" ).animate({
+            display: "flex",
+            height: "toggle"
+          }, 250, function() {
+          });
+    });      
+
 });

@@ -64,3 +64,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/ArialNarrow-Bold.eot');
+    src: url('../fonts/ArialNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ArialNarrow-Bold.woff2') format('woff2'),
+        url('../fonts/ArialNarrow-Bold.woff') format('woff'),
+        url('../fonts/ArialNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,325 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 5px;
+    }
+    .reg-login__container {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .draw__content {
+        padding-bottom: 800px;
+    }
+    .draw__content {
+        margin: 0 auto;
+    }
+    .draw__content:after {
+        top: 48%;
+        left: -4%;
+    }
+    .winners {
+        margin-top: -312px;
+    }
+    .grandprize__content:after  {
+        left: 116%;
+    }
+    .winners__more {
+        margin-right: 40px;
+    }
+    .reg-login__box {
+        width: 600px;
+    }
+    .reg-login__box:after {
+        top: 226px;
+    }
+    .reg-login__box--man:after {
+        top: 156px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .grandprize__content:after  {
+        left: 106%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 0 15px;
+    }
+    .reg-login__container {
+        padding-top: 50px;
+    }
+    
+    .top-menu__list {
+        display: none;
+        flex-direction: column;
+        padding: 95px 0 20px;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    .top-menu__item_break,
+    .top-menu__item--before:before {
+        display: none;
+    }
+
+    .top-menu__item {
+        width: 100%;
+        height: 50px;
+    }
+
+    .cream-menu {
+        height: auto;
+    }
+
+    .cream-menu__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cream-menu__item {
+        width: 100%;
+    }
+
+    .cream-menu__link {
+        width: 80%;
+        padding: 16px 0px;
+        border-bottom: 1px solid #fff;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
+
+    .cream-menu__item--before:before {
+        display: none;
+    }
+
+    .cream-menu__item--active .cream-menu__link,
+    .cream-menu__item:last-child .cream-menu__link {
+        border-bottom: transparent;
+    }
+    .sentence {
+        flex-direction: column;
+        align-items: center;
+    }
+    .checkin {
+        margin-bottom: 50px;
+    }
+    .grandprize__content:after  {
+        display: none;
+    }
+    .grandprize__content {
+        margin: 0 auto;
+    }
+    .grandprize {
+        padding-top: 455px;
+    }
+    .footer {
+        padding-top: 313px;
+        padding-bottom: 40px;
+        margin-top: -370px;
+    }
+    .footer--reg-login {
+        margin-top: -277px;
+    }
+    .footer__down {
+        flex-direction: column;
+    }
+    .footer__hochland {
+        margin-bottom: 30px;
+    }
+    .footer__corporate {
+        display: none;
+    }
+    .reg-login__box:after {
+        left: 94%;
+    }
+    .reg-login__box--man:after {
+        left: 91%;
+    }
+
+@media screen and (max-width: 992px) {
+    .register__icon {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .reg-login__box {
+        width: 500px;
+    }
+    .footer--reg-login {
+        margin-top: -291px;
+    }
+    .tabs-reg__form,
+    .tabs-ent__form {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 7px;
+        margin: 0 auto;
+    }
+    .reg-login__container {
+        padding-top: 40px;
+    }
+    .victors__title {
+        font-size: 22px;
+    }
+    .victors__table {
+        font-size: 16px;
+    }
+    .grandprize {
+        margin-top: -270px;
+    }
+    .grandprize__title {
+        padding-top: 40px;
+    }
+    .footer {
+        padding-top: 390px;
+        margin-top: -413px;
+    }
+    .reg-login__box {
+        width: 100%;
+    }
+    .reg-login__box:after,
+    .reg-login__box--man:after {
+        display: none;
+    }
+    .footer--reg-login {
+        margin-top: -266px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title2 {
+        font-size: 32px;
+    }
+    .draw__content,
+    .grandprize__content {
+        width: 100%;
+    }
+    .certificates {
+        max-width: 100%;
+    }
+    .draw__data,
+    .grandprize__data {
+        flex-direction: column;
+    }
+    .draw__subtitle,
+    .grandprize__subtitle {
+        font-size: 22px;
+    }
+    .draw__text,
+    .grandprize__text {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .certificates__sum {
+        font-size: 107px;
+    }
+    .draw__content {
+        padding-bottom: 0;
+    }
+    .draw__content:after {
+        display: none;
+    }
+    .winners {
+        margin-top: -162px;
+    }
+    .winners__more {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .winners__link {
+        width: 100%;
+        max-width: 400px;
+        font-size: 16px;
+    }
+    .checkin__icon {
+        margin-right: 25px;
+    }
+    .checkin__text {
+        width: 76%;
+        font-size: 16px;
+    }
+    .bold {
+        font-size: 22px;
+    }
+    .victors__table {
+        padding: 0 3px;
+    }
+    .victors__title {
+        font-size: 20px;
+    }
+    .victors__table {
+        font-size: 11px;
+    }
+    .conditions {
+        padding: 0 8px;
+    }
+    .grandprize {
+        margin-top: -305px;
+    }
+    .grandprize__certificates {
+        padding: 162px 25px 0;
+        background-position-x: 9%;
+    }
+    .grandprize__sum {
+        font-size: 96px;
+    }
+    .certificates__desc {
+        width: 100%;
+        font-size: 21px;
+    }
+    .register__subtitle {
+        font-size: 22px;
+    }
+    .inform-bold {
+        font-size: 52px;
+    }
+    .register__icon {
+        width: 320px;
+        height: 262px;
+        background-size: cover;
+    }
+    .footer {
+        padding-top: 420px;
+        margin-top: -414px;
+    }
+    .footer--reg-login {
+        margin-top: -266px;
+    }
+    .footer__hochland {
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+    .tabs__item--active a {
+        font-size: 20px;
+    }
+    .tabs-reg__form,
+    .tabs-ent__form {
+        padding: 50px 20px;
+    }
+
+    .form__col {
+        flex-direction: column;
+    }
+    .form__forgot {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
