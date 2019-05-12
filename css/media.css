@@ -1,14 +1,28 @@
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+    .balls {
+        background: url('../img/bg-more-balls.png') no-repeat center 690px / cover;
+    }
+    .detail-balance {
+        max-width: 100%;
+    }
+    .count-balls {
+        flex-direction: row;
+    }
+    .callback {
+        right: 5%;
+    }
     .container {
         padding: 0 5px;
     }
     .reg-login__container {
         padding-top: 50px;
     }
-
 }
 
 @media screen and (max-width: 1150px) {
+    .check-upload__field_products input, .check-upload__field_count input {
+        width: 100% !important;
+    }
     .draw__content {
         padding-bottom: 800px;
     }
@@ -23,7 +37,7 @@
         margin-top: -312px;
     }
     .grandprize__content:after  {
-        left: 116%;
+        left: 114%;
     }
     .winners__more {
         margin-right: 40px;
@@ -32,60 +46,257 @@
         width: 600px;
     }
     .reg-login__box:after {
-        top: 226px;
+        top: 174px;
     }
     .reg-login__box--man:after {
-        top: 156px;
+        top: 35px;
+    }
+    .footer--reg-login {
+        margin-top: -224px;
+    }
+    .tabs-reg__form,
+    .tabs-ent__form {
+        padding: 50px;
+    }
+    .tabs-ent__form {
+        padding-bottom: 250px;
+    }
+
+    /* --- ФОРМА - документы для налоговой --- */
+
+    .form_docs {
+        max-width: 90%;
+        padding: 60px 40px 30px;
+    }
+    .form_docs .form__title {
+        font-size: 12px;
+    }
+    .reg-address__region .form__group_docs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .doc-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__group_docs label {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .form-doc__input_h2 {
+        width: 100%;
+    }
+    .form-doc__input_h3 {
+        width: 100%;
+    }
+    .form-doc__input_h4 {
+        width: 100%;
+    }
+    .form-doc__input_h5 {
+        width: 100%;
+    }
+    .form-doc__row {
+        width: 100%;
+    }
+    .form-doc__row {
+        flex-direction: column;
+    }
+    .form-doc__label {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .doc-list .doc-list__item {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .doc-list .doc-list__item:nth-child(2) {
+        margin-left: 0;
+    }
+    .info-date {
+        flex-direction: column;
+    }
+    .titles-data {
+        display: none;
+    }
+    .form__group_passport {
+        flex-direction: column;
+    }
+    .reg-address__regcity {
+        flex-direction: column;
+    }
+
+    /* --- Page LK --- */
+
+    .check-upload {
+        width: 90%;
+        padding: 15px 9px;
+        margin: 0 auto;
+    }
+    .check-upload__info {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+    .check-upload__qr {
+        width: 100%;
+    }
+    .check-upload__wr, .check-upload__info div, .check-upload__btns {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .check-upload__img {
+        width: 300px;
+    }
+    .check-upload__input {
+        width: 100%;
+    }
+    .check-upload__field {
+        flex-direction: column;
+        width: 100%;
+    }
+    .check-upload__field_products input {
+        width: 240px;
+    }
+    .check-upload__upload {
+        margin-bottom: 20px;
+    }
+    .check-upload__qr {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .check-upload__btns {
+        align-items: center;
     }
 }
 
+
 @media screen and (max-width: 1100px) {
     .grandprize__content:after  {
-        left: 106%;
+        left: 105%;
+    }
+    .check-upload_productcount {
+        flex-direction: row;
+    }
+    .check-upload_productcount input, .check-upload__field_products input {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile__user {
+        margin-bottom: 30px;
+    }
+    .cert-list {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__name {
+        font-size: 21px;
+    }
+    .features__item {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+    .features__title {
+        font-size: 16px;
+    }
+    .features_bold {
+        font-size: 24px;
+    }
+    .features__item img[class='eq1'] {
+        margin-left: auto;
+    }
+    .features__wr-desc {
+        height: auto;
+        margin-bottom: 0;
+    }
+    .features__desc {
+        font-size: 18px;
+    }
+    .attention {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .btn_reg {
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .more__text {
+        padding: 0 15px;
+        margin-top: 20px;
+        font-size: 21px;
+    }
+    .draw-dates {
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    .wr-btns {
+        flex-direction: row;
+    }
+    .btn_feedback {
+        margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
+    .view-info {
+        justify-content: space-around;
+    }
+    .view-info__link {
+        max-width: 363px;
+    }
+    .action-info:before {
+        display: none;
+    }
+    .btn_doc-feedback {
+        margin-bottom: 20px;
+    }
     .container {
         padding: 0 15px;
     }
     .reg-login__container {
         padding-top: 50px;
     }
-    
-    .top-menu__list {
+    .top-menu {
         display: none;
+    }
+    .top-menu__list {
         flex-direction: column;
         padding: 95px 0 20px;
     }
-
     .humburger {
         display: block;
     }
-
     .top-menu__item_break,
     .top-menu__item--before:before {
         display: none;
     }
-
     .top-menu__item {
         width: 100%;
         height: 50px;
     }
-
     .cream-menu {
         height: auto;
     }
-
+    .cream-menu--0 {
+        bottom: 0;
+    }
     .cream-menu__list {
         flex-direction: column;
         align-items: center;
     }
-
     .cream-menu__item {
         width: 100%;
     }
-
     .cream-menu__link {
         width: 80%;
         padding: 16px 0px;
@@ -95,12 +306,10 @@
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
         -o-transition: all 0.5s;
-}
-
+    }
     .cream-menu__item--before:before {
         display: none;
     }
-
     .cream-menu__item--active .cream-menu__link,
     .cream-menu__item:last-child .cream-menu__link {
         border-bottom: transparent;
@@ -112,7 +321,7 @@
     .checkin {
         margin-bottom: 50px;
     }
-    .grandprize__content:after  {
+    .grandprize__content:after {
         display: none;
     }
     .grandprize__content {
@@ -144,14 +353,64 @@
     .reg-login__box--man:after {
         left: 91%;
     }
+}
 
 @media screen and (max-width: 992px) {
     .register__icon {
         max-width: 100%;
     }
+    .form_fdback .form__col {
+        width: 90%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .cream__container,
+    .reg-login__container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btn_feedback, .btn_exit, .btn_doc-feedback {
+        font-size: 14px;
+    }
+    .check-upload__input {
+        margin-bottom: 0;
+    }
+    .check-upload__img {
+        margin-top: 20px;
+    }
+    .check-upload__btns {
+        margin-top: 0;
+    }
+    .callback {
+        top: 80%;
+        right: 10%;
+    }
+    .balls__container {
+        padding-top: 400px;
+    }
+    .balls__container:after {
+        width: 100%;
+        height: 400px;
+        left: 0;
+    }
+    .draw-dates {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 28px;
+    }
+    .draw-dates__item {
+        width: 35%;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .balls {
+        background-position-Y: 363px;
+        padding-top: 40px;
 }
 
+
 @media screen and (max-width: 970px) {
+
     .reg-login__box {
         width: 500px;
     }
@@ -162,13 +421,245 @@
     .tabs-ent__form {
         padding: 50px;
     }
+    .tabs-ent__form {
+        padding-bottom: 250px;
+    }
+
+    /* --- Page LK --- */
+
+    .check-upload {
+        width: 90%;
+        padding: 15px 9px;
+        margin: 0 auto;
+    }
+    .check-upload__info {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+    .check-upload__qr {
+        width: 100%;
+    }
+    .check-upload__wr, .check-upload__info div, .check-upload__btns {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .check-upload__wr, .check-upload__info div {
+        margin-bottom: 10px;
+    }
+    .check-upload__img {
+        width: 300px;
+    }
+    .check-upload__input {
+        width: 100%;
+    }
+    .check-upload__field {
+        flex-direction: column;
+        width: 100%;
+    }
+    .check-upload__upload {
+        margin-bottom: 20px;
+    }
+    .check-upload__qr {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .check-upload__btns {
+        align-items: center;
+    }
+    .action-info:before {
+        display: none;
+    }
+
+    /* --- ФОРМА - документы для налоговой --- */
+
+    .form_docs {
+        max-width: 90%;
+        padding: 60px 10px 30px;
+    }
+    .form_docs .form__title {
+        font-size: 12px;
+    }
+    .reg-address__region .form__group_docs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .doc-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__group_docs label {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .form-doc__row,
+    .reg-address__region {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .doc-list .doc-list__item {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .doc-list .doc-list__item:nth-child(2) {
+        margin-left: 0;
+    }
+    .info-date {
+        flex-direction: column;
+    }
+    .titles-data {
+        display: none;
+    }
+    .form__group_passport {
+        flex-direction: column;
+    }
+    .reg-address__regcity {
+        flex-direction: column;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__name {
+        font-size: 21px;
+    }
+    .features__item {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+    .features__title {
+        font-size: 16px;
+    }
+    .features_bold {
+        font-size: 24px;
+    }
+    .features__item img[class='eq1'] {
+        margin-left: auto;
+    }
+    .features__wr-desc {
+        height: auto;
+        margin-bottom: 0;
+    }
+    .features__desc {
+        font-size: 18px;
+    }
+    .attention {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .btn_reg {
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .more__text {
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .detail-balance {
+
+    }
+    .btn_doc-feedback {
+        margin-bottom: 20px;
+    }
+    .uploads-checks--mob {
+        display: none;
+    }
+    .uploads-checks__num {
+        width: 5%;
+    }
+    .uploads-checks__date {
+        width: 20%;
+    }
+    .uploads-checks__stat {
+        width: 25%;
+    }
+    .uploads-checks__agree {
+        width: 30%;
+    }
+    .uploads-checks__count {
+        width: 20%;
+    }
+    .count-balls__item {
+        width: 241px;
+    }
+}
+
+@media screen and (max-width: 953px) {
+    .label__cont--fdb .label__text br {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .detail-balance {
+        max-width: 90%;
+    }
+
+    /* --- ФОРМА - документы для налоговой --- */
+
+    .form_docs {
+        max-width: 90%;
+        padding: 60px 10px 10px;
+    }
+    .form_docs .form__title {
+        font-size: 12px;
+    }
+    .reg-address__region .form__group_docs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .doc-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__group_docs label {
         width: 100%;
-        padding: 0 7px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .form-doc__input_h2 {
+        width: 90%;
+    }
+    .form-doc__input_h3 {
+        width: 90%;
+    }
+    .form-doc__input_h4 {
+        width: 90%;
+    }
+    .form-doc__input_h5 {
+        width: 90%;
+    }
+    .form-doc__row {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .doc-list .doc-list__item {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .doc-list .doc-list__item:nth-child(2) {
+        margin-left: 0;
+    }
+    .info-date {
+        flex-direction: column;
+    }
+    .titles-data {
+        display: none;
+    }
+    .form__group_passport {
+        flex-direction: column;
+    }
+    .socials__hint {
+        display: none;
+    }
+    .container {
+        width: 95%;
         margin: 0 auto;
+    }
+    .winners__container {
+        width: 100%;
     }
     .reg-login__container {
         padding-top: 40px;
@@ -199,9 +690,296 @@
     .footer--reg-login {
         margin-top: -266px;
     }
+    .tabs-ent__form {
+        padding-bottom: 80px;
+    }
+    .balls {
+        background: url(../img/bg-more-balls.png) no-repeat center 370px / cover;
+    }
+    .balls__container {
+        max-width: 700px;
+    }
+    .register__title {
+        margin-top: 100px;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__item {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    /* --- Page LK --- */
+
+    .anketa__city {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn_save {
+        margin-left: 0;
+    }
+    .anketa__input {
+        margin: 15px 0;
+    }
+    .wr-btns {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+    .anketa {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .btn_feedback {
+        margin-bottom: 20px;
+    }
+    .priz-notice {
+        max-width: 90%;
+        font-size: 16px;
+    }
+    .count-balls {
+        flex-direction: column;
+        align-items: center;
+    }
+    .count-balls__item {
+        margin-bottom: 30px;
+    }
+    .view-info {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .view-info__link {
+        max-width: 90%;
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .action-info {
+        max-width: 90%;
+    }
+    .action-info__link {
+        max-width: 90%;
+    }
+    .action-info:before {
+        display: none;
+    }
+    .register__title {
+        margin-top: 0;
+    }
+    .draw-dates {
+        margin-bottom: 30px;
+    }
+
+    /* --- Page Podarok --- */
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile__user {
+        margin-bottom: 30px;
+    }
+
+    /* --- Page LK --- */
+
+    .check-upload {
+        width: 90%;
+        padding: 15px 15px 40px 15px;
+        margin: 0 auto;
+    }
+    .check-upload__info {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+    .check-upload__qr {
+        width: 100%;
+    }
+    .check-upload__wr, .check-upload__info div, .check-upload__btns {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .check-upload__img {
+        width: 300px;
+    }
+    .check-upload__input {
+        width: 100%;
+    }
+    .check-upload__field {
+        flex-direction: column;
+        width: 240px;
+    }
+    .check-upload__field_products input {
+        width: 240px;
+    }
+    .check-upload__upload {
+        margin-bottom: 20px;
+    }
+    .check-upload__qr {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .check-upload__btns {
+        align-items: center;
+    }
+
+    /* Page- Feedback */
+
+    .btn_doc-feedback {
+        margin-bottom: 20px;
+    }
+    .form__group {
+        flex-direction: column;
+    }
+    .form__group label {
+        margin: 0 0 15px;
+    }
+    .form__desc {
+        margin: 20px auto 0;
+    }
+    .form__group, .form__desc {
+        padding: 12px;
+    }
+    .form_fdback .form__group {
+        margin: 0 auto;
+    }
+    .form_fdback .form__chek {
+        margin-left: 0;
+    }
+    .form__col .form__submit {
+        margin: 0;
+    }
+    .form_fdback .form__col {
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .form_fdback .label__text {
+        margin-right: 0;
+        width: 90%;
+    }
+    .form__chek--fdb {
+        margin-bottom: 20px;
+    }
+    .form_fdback .form__col .form__submit {
+        width: 240px;
+    }
+    .detail-balance {
+        width: 90%;
+        margin-bottom: 30px;
+        border-radius: 9px;
+    }
+    .detail-balance__titles, .detail-balance__total {
+        font-size: 8px;
+        padding: 6px;
+    }
+    .reg-address__regcity {
+        flex-direction: column;
+    }
+    .check-upload__field {
+        margin: 10px auto;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features__name {
+        font-size: 21px;
+    }
+    .features__item {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+    .features__title {
+        font-size: 16px;
+    }
+    .features_bold {
+        font-size: 24px;
+    }
+    .features__item img[class='eq1'] {
+        margin-left: auto;
+    }
+    .features__wr-desc {
+        height: auto;
+        margin-bottom: 0;
+    }
+    .features__desc {
+        font-size: 18px;
+    }
+    .attention {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .btn_reg {
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .more__text {
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .cream__container,
+    .reg-login__container {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer__container {
+        width: 100%;
+    }
+
+    .cream__container {
+        margin-top: -46px;
+    }
+    .draw-dates {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .draw-dates__item {
+        width: 246px;
+    }
+    .balls {
+        background-position-Y: 350px;
+    }
+    .form__chek--fdb {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .label__cont--fdb {
+        width: 510px;
+        position: relative;
+    }
+    .form__chek--fdb .label__text {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    .confirmation__content {
+        width: 95%;
+    }
+    .balls {
+        background-position-Y: 322px;
+    }
 }
 
 @media screen and (max-width: 576px) {
+    .form-doc__desc {
+        margin: 0px auto 50px auto;
+        width: 90%;
+    }
+    .form__forgot {
+        margin-bottom: 30px;
+    }
     .title2 {
         font-size: 32px;
     }
@@ -226,8 +1004,9 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    .certificates__sum {
-        font-size: 107px;
+    .certificates__sum,
+    .grandprize__sum {
+        font-size: 140px;
     }
     .draw__content {
         padding-bottom: 0;
@@ -273,13 +1052,6 @@
     .grandprize {
         margin-top: -305px;
     }
-    .grandprize__certificates {
-        padding: 162px 25px 0;
-        background-position-x: 9%;
-    }
-    .grandprize__sum {
-        font-size: 96px;
-    }
     .certificates__desc {
         width: 100%;
         font-size: 21px;
@@ -316,10 +1088,482 @@
 
     .form__col {
         flex-direction: column;
+        align-items: center;
     }
     .form__forgot {
         width: 100%;
         text-align: center;
         margin-top: 30px;
+    }
+    .form__entrance {
+        margin-left: 0;
+    }
+    .cream_club {
+        height: 80vh;
+    }
+    .cheese-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__name {
+        font-size: 21px;
+    }
+    .features__item {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+    .features__title {
+        font-size: 16px;
+    }
+    .features_bold {
+        font-size: 24px;
+    }
+    .features__item img[class='eq1'] {
+        margin-left: auto;
+    }
+    .features__wr-desc {
+        height: auto;
+        margin-bottom: 0;
+    }
+    .features__desc {
+        font-size: 18px;
+    }
+    .attention {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .btn_reg {
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .more__text {
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .balls {
+        padding-top: 40px;
+    }
+    .draw-dates {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .socials {
+        flex-direction: column;
+        align-items: center;
+    }
+    .socials__link_fb {
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+    .cream_club {
+        background: url('../img/bg-offer.png') repeat center 0px / cover;
+    }
+
+    /* --- Page LK --- */
+
+    .anketa__city {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn_save {
+        margin-left: 0;
+    }
+    .anketa__input {
+        margin: 15px 0;
+    }
+    .wr-btns {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+    .anketa {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .btn_feedback {
+        margin-bottom: 20px;
+    }
+    .priz-notice {
+        max-width: 90%;
+        font-size: 16px;
+    }
+    .count-balls {
+        flex-direction: column;
+        align-items: center;
+    }
+    .count-balls__item {
+        margin-bottom: 30px;
+    }
+    .view-info {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .view-info__link {
+        max-width: 90%;
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .action-info {
+        max-width: 90%;
+    }
+    .action-info__link {
+        max-width: 90%;
+    }
+    .action-info:before {
+        display: none;
+    }
+    .register__title {
+        margin-top: 0;
+    }
+
+    /* --- Page Podarok --- */
+
+    .s-profile .container {
+        max-width: 280px;
+    }
+    .profile__user {
+        margin-bottom: 30px;
+    }
+    .profile__fio {
+        font-size: 24px;
+    }
+    .profile__title {
+        font-size: 36px;
+    }
+    .profile__balls {
+        width: 260px;
+    }
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile__table {
+        max-width: 90%;
+    }
+    .s-certificates {
+        background: none;
+    }
+    .s-certificates .container {
+        padding-bottom: 20px;
+    }
+    .footer_podarok {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    /* --- Page LK --- */
+
+    .check-upload {
+        width: 90%;
+        padding: 15px 9px;
+        margin: 0 auto;
+    }
+    .check-upload__info {
+        width: 90%;
+        text-align: left;
+    }
+    .check-upload__qr {
+        width: 100%;
+    }
+    .check-upload__wr, .check-upload__info div, .check-upload__btns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .check-upload__img {
+        width: 100%;
+    }
+    .check-upload__input {
+        width: 100%;
+    }
+    .check-upload__field {
+        flex-direction: column;
+        width: 240px;
+    }
+    .check-upload__field_products input {
+        width: 240px;
+    }
+    .check-upload__upload {
+        margin-bottom: 20px;
+    }
+    .check-upload__wr {
+        margin-top: 0;
+    }
+    .check-upload__input {
+        height: 45px;
+    }
+    .check-upload__field {
+        margin-bottom: 0;
+    }
+
+    /* --- ФОРМА - документы для налоговой --- */
+
+    .form_docs {
+        max-width: 90%;
+        padding: 60px 10px 10px;
+    }
+    .form_docs .form__title {
+        font-size: 12px;
+    }
+    .reg-address__region .form__group_docs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .doc-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__group_docs label {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .form-doc__input_h2 {
+        width: 90%;
+    }
+    .form-doc__input_h3 {
+        width: 90%;
+    }
+    .form-doc__input_h4 {
+        width: 90%;
+    }
+    .form-doc__input_h5 {
+        width: 90%;
+    }
+    .doc-list .doc-list__item {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .doc-list .doc-list__item:nth-child(2) {
+        margin-left: 0;
+    }
+    .info-date {
+        flex-direction: column;
+    }
+    .titles-data {
+        display: none;
+    }
+    .form__group_passport {
+        flex-direction: column;
+    }
+
+    /* Page- Feedback */
+
+    .btn_doc-feedback {
+        margin-bottom: 20px;
+    }
+    .form__group {
+        flex-direction: column;
+    }
+    .form__group label {
+        margin: 0 0 15px;
+    }
+    .form__desc {
+        margin: 20px auto 0;
+    }
+    .form__group, .form__desc {
+        padding: 12px;
+    }
+    .form_fdback .form__group {
+        margin: 0 auto;
+    }
+    .form_fdback .form__chek {
+        margin-left: 0;
+    }
+    .form__col .form__submit {
+        margin: 0;
+    }
+    .form__send {
+        margin-left: 0!important;
+        margin-bottom: 20px!important;
+        margin-top: 10px!important;
+    }
+    .form_fdback .label__text {
+        margin-right: 0;
+        width: 90%;
+    }
+    .label__cont {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .confirmation__content {
+        padding: 68px 30px;
+    }
+
+    .uploads-checks__titles {
+        font-size: 8px; 
+    }
+    .winners {
+        margin-top: -142px;
+    }
+    .grandprize__certificates {
+        padding-top: 51px;
+    }
+    .check-upload_desc {
+        width: 90%;
+    }
+    .balls:before,
+    .balls__container:after {
+        display: none;
+    }
+    .balls {
+        background-position-Y: 0px;
+        margin-top: -50px;
+    }
+    .balls__container {
+        padding-top: 160px;
+    }
+    .label__cont--fdb {
+        width: 320px;
+    }
+    .form__chek--fdb .label__text {
+        width: 260px;
+    }
+    .form_fdback .label__cont {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner {
+        display: none;
+    }
+    .cream__container {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .draw__certificates {
+        padding-top: 28px;
+    }
+    .winners {
+        margin-top: -142px;
+    }
+    .form__chek--fdb .label__text {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .grandprize__text1 {
+        margin-bottom: 24px;
+    }
+    .grandprize__certificates .grandprize__sum {
+        font-size: 120px;
+    }
+    .check-upload {
+        width: 98%;
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+    .action-info__link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .grandprize__certificates .grandprize__sum {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .grandprize__certificates {
+        padding-top: 45px;
+        height: 270px;
+    }
+    .grandprize__certificates .grandprize__sum {
+        font-size: 88px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .draw__certificates {
+        padding-top: 42px;
+    }
+    .certificates__sum {
+        font-size: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .cert-list__item {
+        background-position: left top;
+    }
+    .cert-list__banner {
+        max-width: 60%;
+        margin-left: 35%;
+    }
+    .label__cont {
+        width: 290px;
+    }
+    .cream_club {
+        background: url('../img/bg-offer.png') repeat center 0px / cover;
+    }
+    .anketa__city {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn_save {
+        margin-left: 0;
+    }
+    .anketa__input {
+        margin: 15px 0;
+    }
+    .anketa {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .btn_feedback {
+        margin-bottom: 20px;
+    }
+    .priz-notice {
+        max-width: 90%;
+        font-size: 16px;
+    }
+    .count-balls {
+        flex-direction: column;
+        align-items: center;
+    }
+    .count-balls__item {
+        margin-bottom: 30px;
+    }
+    .view-info {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .view-info__link {
+        max-width: 90%;
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .action-info {
+        max-width: 90%;
+        text-align: center;
+    }
+    .action-info__link {
+        max-width: 90%;
+    }
+    .action-info:before {
+        display: none;
+    }
+    .register__title {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .cert-list__item {
+        width: 100%;
     }
 }
